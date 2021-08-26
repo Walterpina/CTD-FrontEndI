@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: blueviolet;
+}
+
+div > p {
+  color: red;
+}
+
+.container {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 500px;
+}
