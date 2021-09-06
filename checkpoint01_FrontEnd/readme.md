@@ -29,3 +29,6 @@ pequena lista com algumas curiosidades da sua cidade.
 outra do youtube. Nesses ícones, faça o link com os canais oficiais da sua
 cidade, se não houver, coloque links do seu gosto.
 
+![Screenshot](./img/imagem-site-final.jpeg)
+
+<img src="./img/imagem-site-final.jpeg">
