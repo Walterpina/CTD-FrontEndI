@@ -1,19 +1,18 @@
 * {
   box-sizing: border-box;
-}
-
-body {
-  background-image: url('./img/hans-vivek-UiMkBvDQSAA-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0
 }
 
 h1 {
   font-size: 50px;
+  margin: 10px;
 }
 
 h2 {
   font-size: 25px;
+  margin: 10px;
 }
 
 a > button {
@@ -21,15 +20,24 @@ a > button {
   padding: 10px;
   width: 150px;
   height: 50px;
-  color: rgb(153, 6, 6);
+  color: rgb(255, 255, 255);
+  background-color: rgb(30, 30, 30, .4);
   font-weight: bolder;
   font-size: 18px;
   border-radius: 8px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .banner {
-  text-align: center;
-  padding-top: 130px;
-  color: #fff;
+  background-image: url('./img/hans-vivek-UiMkBvDQSAA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
 }
+
+.letreiro {
+  text-align: center;
+  padding-top: 50px;
+}
+
 
