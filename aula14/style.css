@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.pedidos {
+  width: 780px;
+  margin: 25px auto;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: rgb(185, 250, 196);
+}
+
+.contatos, .escolhaDoces, .buttons {
+  margin: 10px;
+  padding: 10px;
+}
+
+.registro-cadastro {
+  display: flex;
+}
+
+.registro {
+  flex-direction: column;
+}
+
+.detalhe-cadastro {
+  display: flex;
+  flex-flow: column wrap;
+}
+.item-cadastro {
+  flex: 1;
+}
+
+.formulario-doces{
+  display: flex;
+}
+
+.doces-itens {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.item {
+  flex-grow: 0;
+}
+
+body {
+  background-color: rgb(233, 184, 166);
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+label {
+  margin: 5px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(255, 195, 242);
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgb(145, 26, 91);
+  box-shadow: 2px 2px 2px rgb(92, 19, 41);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

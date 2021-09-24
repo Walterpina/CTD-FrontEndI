@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <title>Aula 14</title>
+</head>
+<body>
+  <div class="pedidos">
+    <h1>Doceria do Jão</h1>
+    <form class="" (ngSubmit)="onSubmit()" #form="ngForm">
+      <fieldset class="contatos">
+        <legend>Me envie seu contato</legend>
+        <div class="registro-cadastro registro">
+          <div class="detalhe-cadastro">
+            <label class="item-cadastro" for="name">Nome</label>
+            <input class="item-cadastro" id="name" type="text" >
+          </div>
+          <div class="detalhe-cadastro">
+            <label class="item-cadastro" for="phone">Telefone</label>
+            <input class="item-cadastro" type="text" id="phone">
+          </div>
+          <div class="detalhe-cadastro">
+            <label class="item-cadastro" for="email">E-mail</label>
+            <input class="item-cadastro" type="text" id="email">
+          </div>
+        </div>
+      </fieldset>
+      <fieldset class="escolhaDoces">
+        <legend>Escolha seu doce favorito</legend>
+        <div class="formularioDoces">
+          <div class="doces-itens posicao-items">
+            <input class="item" type="checkbox" name="brigadeiro" id="brigadeiro">
+            <label class="item" for="brigadeiro">Brigadeiro</label>
+            <input class="item" type="number" name="brigadeiro" id="brigadeiro">
+          </div>
+          <div class="doces-itens">
+            <input class="item" type="checkbox" name="beijinho" id="beijinho">
+            <label class="item" for="beijinho">Beijinho</label>
+            <input class="item" class="quantidade" type="number" name="beijinho" id="beijinho">
+          </div>
+          <div class="doces-itens">
+            <input class="item" type="checkbox" name="quindim" id="quindim">
+            <label class="item" for="quindim">Quindim</label>
+            <input class="item" type="number" name="quindim" id="quindim">
+          </div>
+          
+          
+          <!-- <input type="checkbox" name="peDeMoleque" id="peDeMoleque"> -->
+          <!-- <label for="peDeMoleque">Pé de Moleque</label>
+          <input type="checkbox" name="cocada" id="cocada">
+          <label for="cocada">Cocada</label>
+          <input type="checkbox" name="sonho" id="sonho">
+          <label for="sonho">Sonho</label>
+          <input type="checkbox" name="bombaDeChocolate" id="bombaDeChocolate">
+          <label for="bombaDeChocolate">Bomda de Chocolate</label>
+          <input type="checkbox" name="canudinhoDoceDeLeite" id="canudinhoDoceDeLeite">
+          <label for="canudinhoDoceDeLeite">Canudinho de Doce de Leite</label> -->
+        </div>
+      </fieldset>
+      <fieldset class="buttons">
+        <button type="reset">Limpar Campos</button>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
