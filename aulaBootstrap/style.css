@@ -1,6 +1,7 @@
 body {
   background-color: #ccc;
   /* height: 2000px; */
+  scroll-behavior: smooth;
 }
 
 /* #color-back {
